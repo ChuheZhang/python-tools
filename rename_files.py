@@ -2,7 +2,7 @@ import os
 import datetime
 
 today = datetime.datetime.today()
-path = 'C:/Users/Fatin/Desktop/十二月信息反馈 - 副本/folder' #需要修改的文件所在的路径
+path = 'YourPath' #需要修改的文件所在的路径
 original_name = os.listdir(path)        #读取文件夹中文件初始的名字
 
 for i in original_name: 
